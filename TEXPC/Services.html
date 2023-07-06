@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>Service</title>
+	  <link rel="stylesheet" href="assets/css/main.css?=v7">
+	  <meta charset="utf-8">
+	</head>
+	<body>
+		<div id="topNavigator">
+			<div id="top" class="navigation">
+			<div class="navigation__wrapper wrapper--large">
+				<a class="navigation__logo logo" href="index.html">TEX<span style="color:#2046f2;">PC</span></a>
+				<nav class="navigation__container">
+					<ul class="navigation__list">
+						<li><a href="index.html#contact">Отправить заявку</a></li>
+						<li><a href="index.html#work">О нас</a></li>
+						<li><a href="index.html#blog">Акции</a></li>
+						<li><a href="https://www.instagram.com/tex.pc/">Контакты</a></li>
+					</ul>
+				</nav>
+				<a class="navigation__cta button" href="https://www.instagram.com/tex.pc/">+7708-810-1132</a>
+				<div class="navigation__burger">
+					<span class="navigation__burger-el navigation__burger-el--top"></span>
+					<span class="navigation__burger-el navigation__burger-el--middle"></span>
+					<span class="navigation__burger-el navigation__burger-el--bottom"></span>
+				</div>
+			</div>
+		</div>
+		</div>
+		<!-- END SECTION: Navigation -->
+		<!-- SECTION: WORK ABOUT INFO -->
+		<div id="aboutInfo">
+			<h2 class="work__heading title">Все наши услуги</h2>
+			<div class="work__wrapper wrapper--large">
+				<ul class="work__list">
+				<li class="work__list-el work__list-el--is-active">
+					<div class="work__content">
+						<div id="descrArea" class="work__content-blurb blurb blurb--framed">
+							<h2 class="blurb__heading">Диагностика</h2>
+							<p class="blurb__copy">Диагностика позволит выявить проблемы в работе программного обеспечения и комплектующих компьютера.</p>
+							<h2 class="blurb__heading">Обслуживание</h2>
+							<p class="blurb__copy">Полная чистка системного блока и замена всех термоинтерфейсов.</p>
+							<h2 class="blurb__heading">Ремонт</h2>
+							<p class="blurb__copy">Ремонт компьютера подарит ему новую жизнь, наши специалисты позаботятся об устранении даже самых сложных поломок.</p>
+							<h2 class="blurb__heading">Сборка ПК</h2>
+							<p class="blurb__copy">Если у вас ещё нет собственного компьютера, или есть комплектующие, но вы не знаете, как собрать, мы вам поможем.</p>
+						</div>
+					</div>
+					<div class="work__visual">
+						<img src="assets/img/comp1.jpg" alt="Strategik INC">
+					</div>
+				</li>
+			</div>
+			<div class="backButton">
+				<a class="button blog__view-more--el" href="index.html#work">Назад</a>
+			</div>
+		</div>
+		<!-- END SECTION: WORK ABOUT INFO -->
+		<!-- SECTION: Footer -->
+		<footer class="footer">
+			<div class="footer__wrapper wrapper--large">
+				<p class="footer__copyright no-margin">&copy; 2022 Amir</p>
+				<a class="footer__logo logo" href="#0">TEX<span style="color:#2046f2;">PC</span></a>
+				<a class="footer__arrow" href="javascript://0" onclick="slowScroll ('#top')">
+					<svg class="footer__arrow-el" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0" y="0" viewBox="0 0 130 65" xml:space="preserve" enable-background="new 0 0 130 65"><g transform="translate(0.000000,65.000000) scale(0.100000,-0.100000)"><path d="M315.4 365c-336-305-345-315-290-351 18-12 32-14 45-8 10 5 145 123 300 262l281 253 196-178c108-98 237-215 287-260 50-46 98-83 107-83s27 9 40 19c20 16 22 23 14 46 -12 33-623 585-647 585C638.4 650 489.4 522 315.4 365z"/></g></svg>
+				</a>
+			</div>
+		</footer>
+		
+		<!-- END SECTION: Footer -->
+		<script src="assets/js/jquery-3.6.0-min.js" charset="utf-8" type="text/javascript"></script>
+		<script type="text/javascript">
+		  function slowScroll (id) {
+		    var offset = 0;
+		    $('html, body').animate ({
+		      scrollTop: $(id).offset ().top - offset
+		    }, 500);
+		    return false;
+		  }
+		</script>
+	</body>
+</html>		
